@@ -1,5 +1,20 @@
 {
-  "users": [{"id": 1, "name": "Alejandra"}],
-  "albums": [],
+  "users": [
+    {
+      "id": "1",
+      "name": "Alejandra"
+    },
+    {
+      "id": "d212",
+      "name": "Mrs. Ethel Terry"
+    }
+  ],
+  "albums": [
+    {
+      "id": "10",
+      "title": "Hiking Trip to Shenandoah",
+      "userId": 1
+    }
+  ],
   "photos": []
 }

@@ -1,6 +1,6 @@
 import classNames from "classnames";
 
-function Skeleton({ times }) {
+function Skeleton({ times, className }) {
   const outerClassNames = classNames(
     "relative",
     "overflow-hidden",
@@ -13,7 +13,7 @@ function Skeleton({ times }) {
     "animate-shimmer",
     "absolute",
     "inset-0",
-    "translate-x-full",
+    "-translate-x-full",
     "bg-gradient-to-r",
     "from-gray-200",
     "via-white",
